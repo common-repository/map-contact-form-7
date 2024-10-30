@@ -1,0 +1,87 @@
+/* place  */
+.maps-for-cf7-place {
+	&.keywords {
+	}
+	&.place-type-label {
+	}
+	&.place-type {
+	}
+	&.place-label {
+	}
+	&.place {
+	}
+	&.map {
+		width: 90%;
+		height: 0vh;
+		visibility: hidden;
+	}
+}
+
+/* shortcode  */
+.maps-for-cf7-shortcode {
+	width: 100%;
+
+	&.form {
+		&.radio-label {
+			font-weight: bold;
+		}
+		&input[type="checkbox"].map-radio {
+			margin-right: 0.5em;
+		}
+	}
+	&.rank-label {
+		font-weight: bold;
+	}
+	&.map-rank {
+	}
+	&.map-block {
+	}
+	&.map {
+		width: 90%;
+		height: 50vh;
+	}
+	&.website {
+		margin-left: 0.5em;
+	}
+	&.marker-label-hybrid {
+		color          : #ffffff;
+		letter-spacing : 0.1em;                /* 文字間 */
+  		text-shadow    : 
+       			0.1em  0.1em 0.05em #003366,
+      			-0.1em  0.1em 0.05em #003366,
+       			0.1em -0.1em 0.05em #003366,
+      			-0.1em -0.1em 0.05em #003366,
+       			0.1em  0px 0.05em #003366,
+       			0px  0.1em 0.05em #003366,
+      			-0.1em  0px 0.05em #003366,
+       			0px -0.1em 0.05em #003366;        /* 文字の影 */
+	}
+}
+
+/* option */
+.maps-for-cf7-option {
+	&.add {
+	}
+}
+#maps-for-cf7-option-form-ids {
+	.maps-for-cf7-select-values {
+		&.candidates-label {
+			text-decoration: underline;
+		}
+		&.candidates-list {
+		}
+		&.add-candidate-button {
+		}
+		&.targets-label {
+			text-decoration: underline;
+		}
+		&.targets-list {
+		}
+		&.target-label {
+			margin-right: 0.5em;
+		}
+		&.remove-target-button {
+		}
+	}
+}
+
